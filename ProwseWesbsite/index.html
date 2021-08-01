@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peyton Prowse</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fas fa-user-tie"></i>Portfolio</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#me" class="navbar__links"> Me </a>
+          </li>
+          <li class="navbar__item">
+            <a href="#projects" class="navbar__links"> Projects </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="contact.html" class="button"> Contact Me </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- hero section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Peyton Prowse</h1>
+          <h2>entry-level developer</h2>
+          <p>check out my work</p>
+          <button class="main__btn" onclick=" window.open('https://github.com/pmprowse/Projects','_blank')"><a href="/">Get Started</a></button>
+        </div>
+        <div class="main__img--container">
+          <img src="./assets/images/undraw_Code_review_re_woeb.svg" alt="pic" id="main__img" />
+        </div>
+      </div>
+    </div>
+
+   
+    <!-- about section  -->
+    <div class="me__container" id="me">
+        <h1>what I'm working with</h1>
+        <div class="me__wrapper">
+            <div class="me__card">
+                <img src="./assets/images/svg-1.svg" alt="" class="icon">
+                <h2>Development</h2>
+                <p>JavaScript, HTML, CSS, C# and React</p>
+            </div>
+            <div class="me__card">
+                <img src="./assets/images/svg-2.svg" alt="" class="icon">
+                <h2>Database</h2>
+                <p>Acess db, <br>
+                     MySQL</p>
+            </div>
+            <div class="me__card">
+                <img src="./assets/images/svg-3.svg" alt="" class="icon">
+                <h2>Data Visualization</h2>
+                <p>Tableau, <br>
+                     Excel</p>
+            </div>
+        </div>
+    </div>
+
+     <!-- services section or projects  -->
+     <div class="services" id="projects">
+        <h1>some of my projects</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Warehouse Inventory App</h2>
+                <p>Access db</p>
+                <button onclick=" window.open('https://github.com/pmprowse/Projects/blob/main/WarehouseInventory4.19.zip','_blank')">check it out</button>
+            </div>
+            <div class="services__card">
+              <img src="" alt="">
+                <h2>Web Development</h2>
+                <p>Designed with React</p>
+                <button onclick=" window.open('https://github.com/pmprowse/Projects/tree/main/build','_blank')">check it out</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
